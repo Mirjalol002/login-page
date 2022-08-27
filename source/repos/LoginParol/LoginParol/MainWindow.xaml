@@ -1,0 +1,64 @@
+﻿<Window x:Class="LoginParol.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoginParol"
+        mc:Ignorable="d"
+        Title="LoginParolPage" Height="600"
+        Width="450"
+        ResizeMode="NoResize"
+        Background="Wheat">
+
+
+
+    <Grid Background="#FFFAE9E9">
+
+        <Label Content="Username:" HorizontalAlignment="Left"
+               Margin="15,110,0,0" VerticalAlignment="Top"
+               Height="40" Width="230" 
+               VerticalContentAlignment="Center" FontSize="20"/>
+        <Label Content="Password:" HorizontalAlignment="Left" Margin="15,225,0,0"
+               VerticalAlignment="Top" Height="40" Width="230" 
+               VerticalContentAlignment="Center" FontSize="20"/>
+
+        <Label Content="Forget Password?" HorizontalAlignment="Center"
+               Margin="0,440,-45,0" VerticalAlignment="Top"
+               Height="45" Width="130"
+               VerticalContentAlignment="Center" FontSize="13.5"
+               Cursor="Hand" TextBlock.Foreground="Red"/>
+
+        <Label Content="Female || Mele" HorizontalAlignment="Left"
+               Margin="15,350,0,0" VerticalAlignment="Top"
+               Height="40" Width="100"
+               VerticalContentAlignment="Center" FontSize="14"/>
+
+        <Label Content="LOGIN" HorizontalAlignment="Center"
+               Margin="15,15,-35,450" Height="40" Width="150"
+               VerticalContentAlignment="Center"
+               FontSize="23"
+               TextBlock.Foreground="Blue"
+               TextBlock.FontWeight="Bold"/>
+
+        <PasswordBox HorizontalAlignment="Left"
+                     Margin="15,155,0,0" VerticalAlignment="Top"
+                     Width="345" Height="45" VerticalContentAlignment="Center"
+                     FontSize="18" Background="#FFF4EDED"/>
+
+        <PasswordBox HorizontalAlignment="Left"
+                     Margin="15,265,0,0" VerticalAlignment="Top"
+                     Width="345" Height="45" VerticalContentAlignment="Center"
+                     FontSize="18" Background="#FFF4EDED"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="15,440,0,0"
+                VerticalAlignment="Top" Height="45" Width="130" Cursor="Hand"/>
+        
+        <RadioButton HorizontalAlignment="Left" Height="40" Margin="35,390,0,0"
+                     VerticalAlignment="Top" Width="45"
+                     RenderTransformOrigin="0.556,0.501"/>
+
+        <RadioButton HorizontalAlignment="Center" Height="40" Margin="-225,390,0,0"
+                     VerticalAlignment="Top" Width="45" 
+                     RenderTransformOrigin="0.556,0.501"/>
+
+    </Grid>
+</Window>
