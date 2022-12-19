@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpTepaLavash", "OpTepaLavash\OpTepaLavash.csproj", "{AC13A2B8-697A-473F-8FBD-8F3C347470BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC13A2B8-697A-473F-8FBD-8F3C347470BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC13A2B8-697A-473F-8FBD-8F3C347470BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC13A2B8-697A-473F-8FBD-8F3C347470BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC13A2B8-697A-473F-8FBD-8F3C347470BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6D56B47-202E-40EC-A398-D62B04BD6CCE}
+	EndGlobalSection
+EndGlobal
