@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\DepoApp\DemoAppNimadir\bin\Debug\net6.0\DemoAppNimadir.deps.json
+C:\Users\User\source\repos\DepoApp\DemoAppNimadir\bin\Debug\net6.0\DemoAppNimadir.dll
+C:\Users\User\source\repos\DepoApp\DemoAppNimadir\bin\Debug\net6.0\DemoAppNimadir.pdb
+C:\Users\User\source\repos\DepoApp\DemoAppNimadir\obj\Debug\net6.0\DemoAppNimadir.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\DepoApp\DemoAppNimadir\obj\Debug\net6.0\DemoAppNimadir.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\DepoApp\DemoAppNimadir\obj\Debug\net6.0\DemoAppNimadir.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\DepoApp\DemoAppNimadir\obj\Debug\net6.0\DemoAppNimadir.AssemblyInfo.cs
+C:\Users\User\source\repos\DepoApp\DemoAppNimadir\obj\Debug\net6.0\DemoAppNimadir.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\DepoApp\DemoAppNimadir\obj\Debug\net6.0\DemoAppNimadir.dll
+C:\Users\User\source\repos\DepoApp\DemoAppNimadir\obj\Debug\net6.0\refint\DemoAppNimadir.dll
+C:\Users\User\source\repos\DepoApp\DemoAppNimadir\obj\Debug\net6.0\DemoAppNimadir.pdb
+C:\Users\User\source\repos\DepoApp\DemoAppNimadir\obj\Debug\net6.0\ref\DemoAppNimadir.dll

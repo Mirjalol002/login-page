@@ -1,0 +1,110 @@
+﻿<Window x:Class="DepoApp.Desktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DepoApp.Desktop"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+
+        Title="MainWindow" Height="550" Width="840">
+    <Grid Background="AliceBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="*"/>
+            
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Button
+                Width="100"
+                Content="Add Car"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Right"
+                Margin="0 0 20 0"
+                Background="Aquamarine"
+                Style="{StaticResource MaterialDesignFlatAccentBgButton}"
+                ToolTip="Add New Car">
+            </Button>
+        </Grid>
+
+        <DataGrid Grid.Row="1"
+                  Name="dgCars"
+                  Margin="20 0 20 20"
+                  AutoGenerateColumns="False"
+                  CanUserResizeColumns="False"
+                  CanUserResizeRows="False"
+                  IsReadOnly="True"
+                  Loaded="DataGrid_Loaded">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id"
+                                    Width="50"
+                                    Binding="{Binding Id}"/>
+
+
+
+                <DataGridTextColumn Header="Name"
+                                    Width="130"
+                                    Binding="{Binding Name}"/>
+
+
+                <DataGridTextColumn Header="Model"
+                                    Width="130"
+                                    Binding="{Binding Model}"/>
+
+
+                <DataGridTextColumn Header="Color"
+                                    Width="100"
+                                    Binding="{Binding Color}"/>
+
+
+                <DataGridTextColumn Header="Number"
+                                    Width="130"
+                                    Binding="{Binding Number}"/>
+
+
+                <DataGridTextColumn Header="MadeYear"
+                                    Width="150"
+                                    Binding="{Binding MadeYear}"/>
+
+
+                <DataGridTemplateColumn Header="StateAction"
+                                    Width="115">
+
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                
+                                <Button
+                                    Width="35"
+                                    Background="#318CE7"
+                                    Style="{StaticResource MaterialDesignFlatAccentBgButton}"
+                                    ToolTip="Car information update">
+                                    <materialDesign:PackIcon Foreground="White"
+                                                             Margin="-6"
+                                                             Kind="Pencil"/>
+                                </Button>
+
+
+                                <Button
+                                    Margin="2 0 0 0"
+                                    Width="35"
+                                    Background="#DE665D"
+                                    Style="{StaticResource MaterialDesignFlatAccentBgButton}"
+                                    ToolTip="Car information datete">
+                                    <materialDesign:PackIcon Foreground="White"
+                                                             Margin="-6"
+                                                             Kind="Delete"/>
+                                </Button>
+
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+
+            </DataGrid.Columns>
+        </DataGrid>
+                
+    </Grid>
+</Window>
